@@ -1,0 +1,65 @@
+.tbn-notification {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  -webkit-app-region: no-drag;
+  left: 75px;
+  color: rgb(143, 143, 143);
+  font-size: 11.5px;
+  animation: 0.4s ease-in-out 0s fly-in;
+  top: 3.5px;
+}
+
+.notifis-checkbox {
+  color: white;
+}
+
+@keyframes fly-in {
+  from {
+    opacity: 0;
+    left: 50px;
+  }
+
+  to {
+    opacity: 1;
+    left: 75px;
+  }
+}
+
+@keyframes fly-out {
+  from {
+    opacity: 1;
+    left: 75px;
+  }
+
+  to {
+    left: 180px;
+    opacity: 0;
+  }
+}
+
+@keyframes fly-up-out {
+  from {
+    opacity: 1;
+    top: 3.5px;
+  }
+
+  to {
+    opacity: 0;
+    top: 14px;
+  }
+}
+
+@keyframes fly-up-in {
+  from {
+    opacity: 0;
+    top: 10px;
+  }
+
+  to {
+    top: 3.5px;
+    opacity: 1;
+  }
+}
