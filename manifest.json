@@ -1,0 +1,7 @@
+{
+  "name": "Notifis",
+  "version": "1.0.0",
+  "description": "Displays notifications for specific channels that you've subscribed to in the titlebar",
+  "author": "Nevulo#0007",
+  "license": "MIT"
+}
